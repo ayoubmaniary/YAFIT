@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/inscrire.jpg);
+    background-size: cover;
+}
+.form{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 330px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 90px 10px 90px;
+    border-radius:15px;
+    border: 1px solid #00999d;
+    color: #00999d;
+}
+.titre{
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: #00999d;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 30px;
+    text-decoration: dashed;
+}
+.form p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+.form input,select{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form input[type=text] , .form input[type=number] , .form input[type=email], .form input[type=password]{
+    border: none;
+    border-bottom: 1px solid #00999d;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    display: 16px;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+.from select{
+    margin-top: 20px;
+    padding: 10px,0;
+}
+
+/* .from input[type=submit]{
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    background-color: #9d4700;
+    cursor: pointer;
+} */
+.foop{
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.foop:hover{
+    background-color: #00999d;
+}
